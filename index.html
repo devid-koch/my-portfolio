@@ -540,19 +540,20 @@
 
   <script>
     function openURL() {
-      var url = "src/pdf/Vinod Jangid Resume.pdf";
+      var url = "src/pdf/Devid Koch Resume";
 
       window.open(url, "_blank");
     }
-    window.addEventListener("load", function() {
-      audio.play();
-    });
   </script>
 
   <script>
     const cursorInner = document.getElementById("cursor-inner");
     const cursorOuter = document.getElementById("cursor-outer");
     const links = document.querySelectorAll("a,label,button");
+
+    window.addEventListener("load", function() {
+      audio.play();
+    });
 
     document.addEventListener("mousemove", function (e) {
       const posX = e.clientX;
